@@ -1,0 +1,13 @@
+type MetroSt
+@model @auth(
+  rules: [{ allow: owner }]
+  ) {
+  id: ID!
+  Attiguppe: String!
+  Jalahalli: String!
+  Jayanagar: String!
+  MgRoad: String!
+  Vijaynagar: String!
+ }
+
+
